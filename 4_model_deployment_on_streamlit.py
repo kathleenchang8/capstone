@@ -11,8 +11,6 @@ Original file is located at
 from google.colab import drive
 drive.mount('/content/drive')
 
-pip install streamlit
-
 import streamlit as st
 import numpy as np
 import pandas as pd
