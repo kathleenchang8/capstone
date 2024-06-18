@@ -56,5 +56,3 @@ if uploaded_file is not None:
     class_names = ['Fractured', 'Not Fractured']  # Replace with your class names
     predicted_class = class_names[np.argmax(predictions)]
     st.write(f"Prediction: {predicted_class}")
-
-!streamlit run /usr/local/lib/python3.10/dist-packages/colab_kernel_launcher.py [ARGUMENTS]
